@@ -1,0 +1,66 @@
+body {
+font-family: 'Lato', sans-serif;
+background-color: #e53935;
+  }
+
+h1 {  font-size: 1.75rem;}
+
+h3 {
+  font-size: 1.5rem;
+  padding-top: 8px;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  .bg-custom {
+    background-color: #ffd95b;
+    }
+
+.menu-ipsum {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+}
+
+#menu-header {
+  padding-top: 16px;
+}
+
+#navlist {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #e53935;
+  width: 100% !important;}
+
+#navlist a {
+    color: black;
+    font-weight: bold;
+    }
+
+#navlist a:hover{
+    color: white;
+    }
+
+#main-content {
+  background-color: #ffd95b;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+  padding: 16px;
+}
+
+/* Mobile and Below - affects margin for main content container*/
+@media (max-width: 576px) {
+  /* Home Page */
+  #main-content {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  }
